@@ -1,4 +1,5 @@
 import json
+import logging
 from pathlib import Path
 
 from flask import Flask, Response, request
@@ -10,8 +11,13 @@ from history import get_history, save_history
 from whatsapp_client import mark_whatsapp_message_as_read, send_whatsapp_message
 
 app = Flask(__name__)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 BASE_DIR = Path(__file__).resolve().parent
 LAST_WEBHOOK_LOG = BASE_DIR / "last_webhook_log.json"
+
+# Validate config on import so Railway/Gunicorn fails fast if env vars are missing.
+validate_runtime_config()
 
 
 @app.get("/whatsapp-webhook")
@@ -63,7 +69,8 @@ def receive_whatsapp_message() -> Response:
     history = get_history(sender)
     try:
         reply = ask_agent(text, history)
-    except Exception:
+    except Exception as exc:
+        logger.exception("Error generating agent reply for sender=%s: %s", sender, exc)
         reply = "Ahora mismo tengo un problema técnico. ¿Puedes escribirme de nuevo en unos minutos?"
 
     save_history(sender, text, reply)
