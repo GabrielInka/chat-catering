@@ -16,18 +16,8 @@ def _build_input(history: list[dict], user_message: str) -> list[dict]:
         role = msg.get("role")
         content = str(msg.get("content", "")).strip()
         if role in {"user", "assistant"} and content:
-            items.append(
-                {
-                    "role": role,
-                    "content": [{"type": "input_text", "text": content}],
-                }
-            )
-    items.append(
-        {
-            "role": "user",
-            "content": [{"type": "input_text", "text": user_message}],
-        }
-    )
+            items.append({"role": role, "content": content})
+    items.append({"role": "user", "content": user_message})
     return items
 
 
