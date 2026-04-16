@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "delivery_area": "Comunidad de Madrid",
+    "delivery_from_eur": 6,
+    "advance_notice": "1 día de antelación (según disponibilidad)",
+    "min_order_eur": 50,
+    "payment": "online o efectivo",
+    "hours": "Lunes a sábado",
+    "address": "C. Arzobispo Morcillo, 46, 28029 Madrid",
+    "phone": "91 115 27 51",
+    "whatsapp": "https://wa.me/34XXXXXXXXX"
+  },
+  "faq": [
+    {
+      "q": "¿Qué diferencia hay entre picoteo y comida?",
+      "a": "La opción picoteo es más ligera y la opción para comer lleva más cantidad. Si lo necesitas, podemos indicarte la modalidad que mejor encaja según el tipo de evento."
+    },
+    {
+      "q": "¿Puedo pedir canapés un día para consumirlos al día siguiente?",
+      "a": "Recomendamos consumirlos lo antes posible. Si quieres pedirlos el día antes, en notas del pedido puedes pedir entrega con canapés calientes sin freír u hornear."
+    }
+  ]
+}

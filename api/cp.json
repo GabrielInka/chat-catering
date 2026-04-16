@@ -1,0 +1,1722 @@
+[
+  {
+    "codigo_postal": "La",
+    "ciudad": "Acebeda",
+    "precio_envio_eur": 28755
+  },
+  {
+    "codigo_postal": "28864",
+    "ciudad": "Ajalvir",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28749",
+    "ciudad": "Alameda del Valle",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "El",
+    "ciudad": "Álamo",
+    "precio_envio_eur": 28607
+  },
+  {
+    "codigo_postal": "28800",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28801",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28802",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28803",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28804",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28805",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28806",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28807",
+    "ciudad": "Alcalá de Henares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28100",
+    "ciudad": "Alcobendas",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28108",
+    "ciudad": "Alcobendas",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28109",
+    "ciudad": "Alcobendas",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28921",
+    "ciudad": "Alcorcón",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28922",
+    "ciudad": "Alcorcón",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28923",
+    "ciudad": "Alcorcón",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28924",
+    "ciudad": "Alcorcón",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28925",
+    "ciudad": "Alcorcón",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28001",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28002",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28003",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28004",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28005",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28006",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28007",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28008",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28009",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28010",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28011",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28012",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28013",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28014",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28015",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28016",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28017",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28018",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28019",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28020",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28021",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28022",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28023",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28024",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28025",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28026",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28027",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28028",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28029",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 0
+  },
+  {
+    "codigo_postal": "28030",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28031",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28032",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28033",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28034",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28035",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28036",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28037",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28038",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28039",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28040",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28041",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28042",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28043",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28044",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28045",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28046",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28047",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28048",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28049",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28050",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 6
+  },
+  {
+    "codigo_postal": "28051",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28052",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28053",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28054",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28055",
+    "ciudad": "Madrid",
+    "precio_envio_eur": 12
+  },
+  {
+    "codigo_postal": "28620",
+    "ciudad": "Aldea del Fresno",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28790",
+    "ciudad": "Tres Cantos",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28220",
+    "ciudad": "Majadahonda",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28221",
+    "ciudad": "Majadahonda",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28222",
+    "ciudad": "Majadahonda",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28410",
+    "ciudad": "Manzanares El Real",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28411",
+    "ciudad": "Manzanares El Real",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28492",
+    "ciudad": "Manzanares El Real",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28880",
+    "ciudad": "Meco",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28840",
+    "ciudad": "Mejorada del Campo",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28792",
+    "ciudad": "Miraflores de la Sierra",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28793",
+    "ciudad": "Miraflores de la Sierra",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28710",
+    "ciudad": "Molar, El",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28460",
+    "ciudad": "Molinos, Los",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28190",
+    "ciudad": "Montejo de la Sierra",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28950",
+    "ciudad": "Moraleja de Enmedio",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "228411",
+    "ciudad": "Moralzarzal",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28530",
+    "ciudad": "Morata de Tajuña",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28931",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28932",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28933",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28934",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28935",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28936",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28937",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28938",
+    "ciudad": "Móstoles",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28491",
+    "ciudad": "Navacerrada",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28729",
+    "ciudad": "Navalafuente",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28212",
+    "ciudad": "Navalagamella",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28600",
+    "ciudad": "Navalcarnero",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28739",
+    "ciudad": "Navarredonda y San Mamés",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28695",
+    "ciudad": "Navas del Rey",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28513",
+    "ciudad": "Nuevo Baztán",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28514",
+    "ciudad": "Nuevo Baztán",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28515",
+    "ciudad": "Olmeda de las Fuentes",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28570",
+    "ciudad": "Orusco de Tajuña",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28860",
+    "ciudad": "Paracuellos de Jarama",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28861",
+    "ciudad": "Paracuellos de Jarama",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28862",
+    "ciudad": "Paracuellos de Jarama",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28981",
+    "ciudad": "Parla",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28982",
+    "ciudad": "Parla",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28983",
+    "ciudad": "Parla",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28984",
+    "ciudad": "Parla",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28189",
+    "ciudad": "Patones",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28723",
+    "ciudad": "Pedrezuela",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28696",
+    "ciudad": "Pelayos de la Presa",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28540",
+    "ciudad": "Perales de Tajuña",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28812",
+    "ciudad": "Pezuela de las Torres",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28749",
+    "ciudad": "Pinilla del Valle",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28320",
+    "ciudad": "Pinto",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28737",
+    "ciudad": "Piñuécar-Gandullas",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28223",
+    "ciudad": "Pozuelo de Alarcón",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28224",
+    "ciudad": "Pozuelo de Alarcón",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28813",
+    "ciudad": "Pozuelo del Rey",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28191",
+    "ciudad": "Hiruela, La",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28190",
+    "ciudad": "Puebla de la Sierra",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28693",
+    "ciudad": "Quijorna",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28740",
+    "ciudad": "Rascafría",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28741",
+    "ciudad": "Rascafría",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28749",
+    "ciudad": "Rascafría",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28721",
+    "ciudad": "Redueña",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28815",
+    "ciudad": "Ribatejada",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28521",
+    "ciudad": "Rivas-Vaciamadrid",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28522",
+    "ciudad": "Rivas-Vaciamadrid",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28523",
+    "ciudad": "Rivas-Vaciamadrid",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28524",
+    "ciudad": "Rivas-Vaciamadrid",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28194",
+    "ciudad": "Robledillo de la Jara",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28294",
+    "ciudad": "Robledo de Chavela",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28755",
+    "ciudad": "Robregordo",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28231",
+    "ciudad": "Rozas de Madrid, Las",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28232",
+    "ciudad": "Rozas de Madrid, Las",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28290",
+    "ciudad": "Rozas de Madrid, Las",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28648",
+    "ciudad": "Rozas de Puerto Real",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28649",
+    "ciudad": "Rozas de Puerto Real",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28750",
+    "ciudad": "San Agustín del Guadalix",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28830",
+    "ciudad": "San Fernando de Henares",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28850",
+    "ciudad": "San Fernando de Henares",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28200",
+    "ciudad": "San Lorenzo de El Escorial",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28209",
+    "ciudad": "San Lorenzo de El Escorial",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28330",
+    "ciudad": "San Martín de la Vega",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28680",
+    "ciudad": "San Martín de Valdeiglesias",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28701",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28702",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28703",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28706",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28707",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28708",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28709",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28707",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28708",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28709",
+    "ciudad": "San Sebastián de los Reyes",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28296",
+    "ciudad": "Santa María de la Alameda",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28297",
+    "ciudad": "Santa María de la Alameda",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28818",
+    "ciudad": "Santorcaz",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28817",
+    "ciudad": "Santos de la Humosa, Los",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28737",
+    "ciudad": "Serna del Monte, La",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28979",
+    "ciudad": "Serranillos del Valle",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28609",
+    "ciudad": "Sevilla la Nueva",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28756",
+    "ciudad": "Somosierra",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28791",
+    "ciudad": "Soto del Real",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28160",
+    "ciudad": "Talamanca de Jarama",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28550",
+    "ciudad": "Tielmes",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28359",
+    "ciudad": "Titulcia",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28850",
+    "ciudad": "Torrejón de Ardoz",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28991",
+    "ciudad": "Torrejón de la Calzada",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28990",
+    "ciudad": "Torrejón de Velasco",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28180",
+    "ciudad": "Torrelaguna",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28250",
+    "ciudad": "Torrelodones",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28189",
+    "ciudad": "Torremocha de Jarama",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28813",
+    "ciudad": "Torres de la Alameda",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28594",
+    "ciudad": "Valdaracete",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28816",
+    "ciudad": "Valdeavero",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28391",
+    "ciudad": "Valdelaguna",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28729",
+    "ciudad": "Valdemanco",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28295",
+    "ciudad": "Valdemaqueda",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28210",
+    "ciudad": "Valdemorillo",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28341",
+    "ciudad": "Valdemoro",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28342",
+    "ciudad": "Valdemoro",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28343",
+    "ciudad": "Valdemoro",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28130",
+    "ciudad": "Valdeolmos-Alalpardo",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28170",
+    "ciudad": "Valdepiélagos",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28150",
+    "ciudad": "Valdetorres de Jarama",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28511",
+    "ciudad": "Valdilecha",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28812",
+    "ciudad": "Valverde de Alcalá",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28891",
+    "ciudad": "Velilla de San Antonio",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28722",
+    "ciudad": "Vellón, El",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28729",
+    "ciudad": "Venturada",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28360",
+    "ciudad": "Villaconejos",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28630",
+    "ciudad": "Villa del Prado",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28810",
+    "ciudad": "Villalbilla",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28598",
+    "ciudad": "Villamanrique de Tajo",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28610",
+    "ciudad": "Villamanta",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28609",
+    "ciudad": "Villamantilla",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28690",
+    "ciudad": "Villanueva de la Cañada",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28691",
+    "ciudad": "Villanueva de la Cañada",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28692",
+    "ciudad": "Villanueva de la Cañada",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28229",
+    "ciudad": "Villanueva del Pardillo",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28609",
+    "ciudad": "Villanueva de Perales",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28512",
+    "ciudad": "Villar del Olmo",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28514",
+    "ciudad": "Villar del Olmo",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28590",
+    "ciudad": "Villarejo de Salvanés",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28670",
+    "ciudad": "Villaviciosa de Odón",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28679",
+    "ciudad": "Villaviciosa de Odón",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28739",
+    "ciudad": "Villavieja del Lozoya",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28293",
+    "ciudad": "Zarzalejo",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28752",
+    "ciudad": "Lozoyuela-Navas-Sieteiglesias",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28753",
+    "ciudad": "Lozoyuela-Navas-Sieteiglesias",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28754",
+    "ciudad": "Lozoyuela-Navas-Sieteiglesias",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28195",
+    "ciudad": "Puentes Viejas",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28196",
+    "ciudad": "Puentes Viejas",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28754",
+    "ciudad": "Puentes Viejas",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28760",
+    "ciudad": "Tres Cantos",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28755",
+    "ciudad": "Madarcos",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28742",
+    "ciudad": "Lozoya",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28890",
+    "ciudad": "Loeches",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28911",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28912",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28913",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28914",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28915",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28916",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28917",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28918",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28919",
+    "ciudad": "Leganés",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28110",
+    "ciudad": "Algete",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28119",
+    "ciudad": "Algete",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28120",
+    "ciudad": "Algete",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28430",
+    "ciudad": "Alpedrete",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28580",
+    "ciudad": "Ambite",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28818",
+    "ciudad": "Anchuelo",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28300",
+    "ciudad": "Aranjuez",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28310",
+    "ciudad": "Aranjuez",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28311",
+    "ciudad": "Aranjuez",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28312",
+    "ciudad": "Aranjuez",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28500",
+    "ciudad": "Arganda del Rey",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28529",
+    "ciudad": "Arganda del Rey",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28939",
+    "ciudad": "Arroyomolinos",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28189",
+    "ciudad": "Atazar, El",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28976",
+    "ciudad": "Batres",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28490",
+    "ciudad": "Becerril de la Sierra",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28390",
+    "ciudad": "Belmonte de Tajo",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28194",
+    "ciudad": "Berzosa del Lozoya",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28192",
+    "ciudad": "Berrueco, El",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28660",
+    "ciudad": "Boadilla del Monte",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28412",
+    "ciudad": "Boalo, El",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28413",
+    "ciudad": "Boalo, El",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28492",
+    "ciudad": "Boalo, El",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28737",
+    "ciudad": "Braojos",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28596",
+    "ciudad": "Brea de Tajo",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28690",
+    "ciudad": "Brunete",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28730",
+    "ciudad": "Buitrago del Lozoya",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28720",
+    "ciudad": "Bustarviejo",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28721",
+    "ciudad": "Cabanillas de la Sierra",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28751",
+    "ciudad": "Cabrera, La",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28640",
+    "ciudad": "Cadalso de los Vidrios",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28648",
+    "ciudad": "Cadalso de los Vidrios",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28816",
+    "ciudad": "Camarma de Esteruelas",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28510",
+    "ciudad": "Campo Real",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28743",
+    "ciudad": "Canencia",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28560",
+    "ciudad": "Carabaña",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28977",
+    "ciudad": "Casarrubuelos",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28650",
+    "ciudad": "Cenicientos",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28470",
+    "ciudad": "Cercedilla",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28479",
+    "ciudad": "Cercedilla",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28193",
+    "ciudad": "Cervera de Buitrago",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28350",
+    "ciudad": "Ciempozuelos",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28863",
+    "ciudad": "Cobeña",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28213",
+    "ciudad": "Colmenar del Arroyo",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28380",
+    "ciudad": "Colmenar de Oreja",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28270",
+    "ciudad": "Colmenarejo",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28120",
+    "ciudad": "Colmenar Viejo",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28707",
+    "ciudad": "Colmenar Viejo",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28770",
+    "ciudad": "Colmenar Viejo",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28780",
+    "ciudad": "Colmenar Viejo",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28450",
+    "ciudad": "Collado Mediano",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28459",
+    "ciudad": "Collado Mediano",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28400",
+    "ciudad": "Collado Villalba",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28811",
+    "ciudad": "Corpa",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28821",
+    "ciudad": "Coslada",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28822",
+    "ciudad": "Coslada",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28823",
+    "ciudad": "Coslada",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28978",
+    "ciudad": "Cubas de la Sagra",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28694",
+    "ciudad": "Chapinería",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28370",
+    "ciudad": "Chinchón",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28814",
+    "ciudad": "Daganzo de Arriba",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28211",
+    "ciudad": "Escorial, El",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28219",
+    "ciudad": "Escorial, El",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28280",
+    "ciudad": "Escorial, El",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28292",
+    "ciudad": "Escorial, El",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28595",
+    "ciudad": "Estremera",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28214",
+    "ciudad": "Fresnedillas de la Oliva",
+    "precio_envio_eur": 38
+  },
+  {
+    "codigo_postal": "28815",
+    "ciudad": "Fresno de Torote",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28940",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28941",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28942",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28943",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28944",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28945",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28946",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28947",
+    "ciudad": "Fuenlabrada",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28140",
+    "ciudad": "Fuente el Saz de Jarama",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28597",
+    "ciudad": "Fuentidueña de Tajo",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28250",
+    "ciudad": "Galapagar",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28260",
+    "ciudad": "Galapagar",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28292",
+    "ciudad": "Galapagar",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28400",
+    "ciudad": "Galapagar",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28420",
+    "ciudad": "Galapagar",
+    "precio_envio_eur": 18
+  },
+  {
+    "codigo_postal": "28473",
+    "ciudad": "Garganta de los Montes",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28749",
+    "ciudad": "Garganta de los Montes",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28739",
+    "ciudad": "Gargantilla del Lozoya y Pinilla de Buitrago",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28737",
+    "ciudad": "Gascones",
+    "precio_envio_eur": 45
+  },
+  {
+    "codigo_postal": "28901",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28902",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28903",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28904",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28905",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28906",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28907",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28909",
+    "ciudad": "Getafe",
+    "precio_envio_eur": 15
+  },
+  {
+    "codigo_postal": "28971",
+    "ciudad": "Griñón",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28794",
+    "ciudad": "Guadalix de la Sierra",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28430",
+    "ciudad": "Guadarrama",
+    "precio_envio_eur": 25
+  },
+  {
+    "codigo_postal": "28440",
+    "ciudad": "Guadarrama",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28480",
+    "ciudad": "Guadarrama",
+    "precio_envio_eur": 30
+  },
+  {
+    "codigo_postal": "28755",
+    "ciudad": "Horcajo de la Sierra-Aoslos",
+    "precio_envio_eur": 50
+  },
+  {
+    "codigo_postal": "28191",
+    "ciudad": "Horcajuelo de la Sierra",
+    "precio_envio_eur": 55
+  },
+  {
+    "codigo_postal": "28240",
+    "ciudad": "Hoyo de Manzanares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28248",
+    "ciudad": "Hoyo de Manzanares",
+    "precio_envio_eur": 19
+  },
+  {
+    "codigo_postal": "28970",
+    "ciudad": "Humanes de Madrid",
+    "precio_envio_eur": 25
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "tema": "informacion_legal",
+    "titulo": "Información legal",
+    "resumen": "Catering en Casa pertenece a Barú Servicios de Catering S.L.U., con domicilio en Madrid. Para cualquier consulta se puede contactar por email en info@cateringencasa.com o por teléfono en el 91 115 27 51.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "actividad",
+    "titulo": "Actividad",
+    "resumen": "Barú ofrece productos de catering artesanales para entrega y consumo a domicilio, garantizando la correcta conservación y transporte de los productos cuando sea necesario.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "disponibilidad_servicio",
+    "titulo": "Disponibilidad del servicio",
+    "resumen": "El servicio está sujeto a disponibilidad y solo realiza envíos en la Comunidad de Madrid. Algunos productos o franjas pueden estar limitados según horario, lugar de reparto o disponibilidad. El pedido mínimo es de 50 €.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "entrega_y_recogida",
+    "titulo": "Condiciones de entrega y recogida",
+    "resumen": "El cliente puede elegir entrega o recogida. Las franjas disponibles se muestran en la web al hacer el pedido. Es importante indicar bien la dirección y el teléfono. Si no se puede realizar la entrega por error en los datos o por no atender al repartidor, el pedido puede cobrarse igualmente.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "puntualidad_entrega",
+    "titulo": "Puntualidad en la entrega",
+    "resumen": "El objetivo es entregar dentro de la franja seleccionada, aunque factores externos como tráfico, meteorología o incidencias pueden causar retrasos. En esos casos se hará el mejor esfuerzo para entregar con un margen máximo de hasta 60 minutos respecto al final de la franja.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "alcohol",
+    "titulo": "Restricciones legales para alcohol",
+    "resumen": "No se puede entregar alcohol a menores de 18 años ni en lugares o situaciones donde esté legalmente prohibido. El cliente debe garantizar que cumple la normativa aplicable.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "alergenos",
+    "titulo": "Alérgenos",
+    "resumen": "Los productos incluyen información sobre alérgenos tanto en la web como en el etiquetado del pedido. Si el cliente tiene alergias o intolerancias, debe consultar la ficha técnica del producto antes de comprar.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "proceso_compra_online",
+    "titulo": "Proceso de compra online",
+    "resumen": "Para comprar online es necesario disponer de una cuenta de usuario y un email válido. El pedido queda confirmado cuando el cliente recibe el correo de confirmación.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "compra_telefonica",
+    "titulo": "Compra por teléfono",
+    "resumen": "También se pueden realizar pedidos por teléfono. En ese caso, algunos datos deberán confirmarse posteriormente por email para completar el pedido.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "formas_pago",
+    "titulo": "Formas de pago",
+    "resumen": "Los pedidos pueden pagarse por tarjeta, efectivo o transferencia, según disponibilidad. Los precios incluyen IVA. En efectivo, el repartidor solo dispone de hasta 10 € de cambio y no se aceptan pagos en efectivo superiores a 2.499 €.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "cancelaciones",
+    "titulo": "Política de cancelaciones",
+    "resumen": "Las cancelaciones deben solicitarse por email. Si se comunican con más de 24 horas de antelación no tienen coste. Entre 24 y 12 horas antes, el coste es del 80% del pedido. Con menos de 12 horas, el coste es del 100%.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "reembolsos",
+    "titulo": "Reembolsos",
+    "resumen": "Los importes cancelados se reembolsan normalmente entre 24 y 48 horas mediante el mismo método de pago o transferencia bancaria.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "desistimiento",
+    "titulo": "Derecho de desistimiento",
+    "resumen": "Al tratarse de productos frescos y perecederos, no se aplica el derecho de desistimiento salvo que el pedido no se ajuste a lo ofertado en la web.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "obligaciones_usuario",
+    "titulo": "Obligaciones del usuario",
+    "resumen": "El usuario debe facilitar datos veraces, mantenerlos actualizados y utilizar la web de forma lícita, sin dañar, interferir o usar indebidamente el portal.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  },
+  {
+    "tema": "jurisdiccion",
+    "titulo": "Ley aplicable y jurisdicción",
+    "resumen": "Las condiciones se rigen por la legislación española. Cualquier controversia se someterá a los juzgados y tribunales del consumidor.",
+    "url": "https://www.cateringencasa.com/condiciones-de-compra/"
+  }
+]

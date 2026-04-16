@@ -1,0 +1,142 @@
+[
+  {
+    "pregunta": "¿Hay disponibilidad para una fecha y hora concreta?",
+    "respuesta": "La disponibilidad se muestra en la web durante el proceso de compra. Si puedes seleccionar fecha y hora, significa que hay disponibilidad."
+  },
+  {
+    "pregunta": "¿Puedo cambiar la fecha o la hora de entrega?",
+    "respuesta": "Sí, siempre que haya disponibilidad. Debes enviar un correo con tu número de pedido y los nuevos datos para confirmar el cambio."
+  },
+  {
+    "pregunta": "¿Puedo cambiar de recogida a entrega?",
+    "respuesta": "Sí, indicando el código postal para calcular el coste de envío. Después debes enviar un correo con los datos completos del pedido."
+  },
+  {
+    "pregunta": "¿Entregáis domingos o festivos?",
+    "respuesta": "No realizamos entregas en domingos ni festivos. Si lo necesitas, puedes hacer tu pedido con un día de antelación y la disponibilidad final se confirma al seleccionar fecha y hora en la web."
+  },
+  {
+    "pregunta": "¿Hacéis entregas fuera de Madrid?",
+    "respuesta": "Solo realizamos envíos en la Comunidad de Madrid. Si estás en una zona limítrofe, puedes escribirnos a info@cateringencasa.com con tu dirección exacta y te confirmaremos si es posible la entrega."
+  },
+  {
+    "pregunta": "¿Qué formas de pago aceptáis?",
+    "respuesta": "Se puede pagar en efectivo a la entrega, tarjeta a través de la web, transferencia o Ticket Restaurant."
+  },
+  {
+    "pregunta": "¿Puedo cambiar la forma de pago?",
+    "respuesta": "Sí, aunque en algunos casos es necesario hacer un nuevo pedido y solicitar la cancelación del anterior."
+  },
+  {
+    "pregunta": "¿Los canapés llegan calientes?",
+    "respuesta": "Los canapés llegan listos para consumir. Si deseas calentarlos, recomendamos hacerlo en horno durante 4-5 minutos a 180º (horno precalentado y apagado). El repartidor te lo recordará en el momento de la entrega."
+  },
+  {
+    "pregunta": "¿Qué cantidad de canapés necesito?",
+    "respuesta": "Depende de si buscas una opción más ligera tipo picoteo o una opción para comer con más cantidad. Si lo necesitas, podemos orientarte según el tipo de evento."
+  },
+  {
+    "pregunta": "¿Qué menú me recomiendas?",
+    "respuesta": "Depende del tipo de evento, del presupuesto y de si prefieres una opción más ligera tipo picoteo o una opción para comer con más cantidad. Podemos orientarte según lo que necesites."
+  },
+  {
+    "pregunta": "No sé el número final de personas",
+    "respuesta": "El pedido se puede modificar hasta 48 horas antes de la entrega contactando por email."
+  },
+  {
+    "pregunta": "Es una fiesta sorpresa",
+    "respuesta": "Puedes indicarlo en la nota del pedido para que el repartidor llame en lugar de tocar el timbre."
+  },
+  {
+    "pregunta": "¿Se pueden incluir notas en pedidos regalo?",
+    "respuesta": "Sí, puedes añadir un mensaje en la nota del pedido y se entregará al destinatario."
+  },
+  {
+    "pregunta": "¿Se ven los precios en la entrega?",
+    "respuesta": "No, no se entregan documentos con precios al destinatario."
+  },
+  {
+    "pregunta": "El pedido lo recibirá otra persona",
+    "respuesta": "Puedes enviar un correo con los nuevos datos de entrega indicando el número de pedido."
+  },
+  {
+    "pregunta": "¿Cuándo debo hacer la reserva?",
+    "respuesta": "Se recomienda hacerlo con la mayor antelación posible, especialmente en fines de semana."
+  },
+  {
+    "pregunta": "¿Entregáis los menús separados y etiquetados?",
+    "respuesta": "Sí, todos los productos se entregan organizados y etiquetados."
+  },
+  {
+    "pregunta": "¿Los termos mantienen el calor?",
+    "respuesta": "Sí, mantienen la temperatura aproximadamente durante una hora."
+  },
+  {
+    "pregunta": "¿Incluye menaje?",
+    "respuesta": "Incluye lo necesario para consumir el producto, pero no platos o bandejas adicionales."
+  },
+  {
+    "pregunta": "¿Qué tamaño tienen los canapés?",
+    "respuesta": "Son de un solo bocado, pensados para consumir fácilmente en eventos."
+  },
+  {
+    "pregunta": "¿Puedo cambiar canapés del menú?",
+    "respuesta": "Sí, se pueden cambiar algunos tipos con un pequeño coste adicional."
+  },
+  {
+    "pregunta": "¿Puedo crear mi propio menú?",
+    "respuesta": "Sí, existe la opción de personalizar el menú en la web."
+  },
+  {
+    "pregunta": "¿Qué pasa si el número de personas no encaja exactamente?",
+    "respuesta": "Se recomienda pedir algo más o añadir extras, ya que no se ajustan cantidades exactas."
+  },
+  {
+    "pregunta": "¿Se pueden presentar tal cual llegan?",
+    "respuesta": "Sí, están preparados para servir directamente o se pueden colocar en otras bandejas."
+  },
+  {
+    "pregunta": "¿Sois puntuales?",
+    "respuesta": "Sí, se garantiza la entrega dentro de la franja horaria seleccionada."
+  },
+  {
+    "pregunta": "¿Las bebidas llegan frías?",
+    "respuesta": "Sí, llegan frías y listas para consumir."
+  },
+  {
+    "pregunta": "¿Ofrecéis servicio de camareros?",
+    "respuesta": "No, solo se ofrece servicio de entrega."
+  },
+  {
+    "pregunta": "¿Cómo puedo cancelar un pedido?",
+    "respuesta": "Se debe solicitar por email con al menos 48 horas de antelación."
+  },
+  {
+    "pregunta": "¿Dónde puedo ver los alérgenos?",
+    "respuesta": "Están disponibles en la ficha técnica de la web y en el etiquetado de los productos."
+  },
+  {
+    "pregunta": "¿Hay riesgo de contaminación cruzada?",
+    "respuesta": "Se trabaja con protocolos específicos para minimizar riesgos, especialmente en productos sin gluten. Aun así, te recomendamos consultar siempre la ficha técnica del producto en la web."
+  },
+  {
+    "pregunta": "¿Qué opciones hay para embarazadas?",
+    "respuesta": "Nuestros productos incluyen quesos pasteurizados y pescado previamente congelado para evitar anisakis. Puedes consultar las fichas técnicas de cada producto en la web. Para cualquier duda específica, puedes escribirnos a info@cateringencasa.com."
+  },
+  {
+    "pregunta": "¿Puedo calentar los canapés en microondas?",
+    "respuesta": "Recomendamos calentarlos en horno, ya que el microondas puede afectar a la textura del producto."
+  },
+  {
+    "pregunta": "¿Enviáis a Toledo, Segovia o Guadalajara?",
+    "respuesta": "Solo realizamos envíos en la Comunidad de Madrid. Si estás en una zona limítrofe, puedes escribirnos a info@cateringencasa.com con tu dirección exacta y te confirmaremos si es posible la entrega."
+  },
+  {
+    "pregunta": "Si hay personas celíacas en mi evento, ¿qué opciones tengo?",
+    "respuesta": "En este caso tienes varias opciones: elegir un menú sin gluten para todos, elegir un menú normal y añadir un menú sin gluten adicional, o elegir un menú normal y añadir canapés extra sin gluten."
+  },
+  {
+    "pregunta": "Si hay personas veganas en mi evento, ¿qué opciones tengo?",
+    "respuesta": "En este caso tienes varias opciones: elegir un menú vegano para todos, elegir un menú normal y añadir un menú vegano adicional, o elegir un menú normal y añadir canapés extra veganos."
+  }
+]

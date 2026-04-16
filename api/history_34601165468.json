@@ -1,0 +1,122 @@
+[
+    {
+        "role": "user",
+        "content": "hola"
+    },
+    {
+        "role": "assistant",
+        "content": "Hola 👋 Soy Vera, asistente virtual de Catering Barú. Puedo ayudarte con información sobre menús, envíos, pedidos y dudas frecuentes. ¿Prefieres algo más ligero tipo picoteo o una opción para comer?"
+    },
+    {
+        "role": "user",
+        "content": "hola"
+    },
+    {
+        "role": "assistant",
+        "content": "Hola 👋 Soy Vera, asistente virtual de Catering Barú. Puedo ayudarte con información sobre menús, envíos, pedidos y dudas frecuentes. ¿Prefieres algo más ligero tipo picoteo o una opción para comer?"
+    },
+    {
+        "role": "user",
+        "content": "que menús tienes para 4 personas"
+    },
+    {
+        "role": "assistant",
+        "content": "Disponemos de varios menús según el tipo de evento.\n\n• COFFEE BREAK\n• Menú Baby Shower\n• Menú Deluxe\n• Menú Entre Amigos\n• Menú infantil\n• Menú Navidad\n• Menú PARA MEDIA MAÑANA\n• Menú sin gluten (apto para celiacos)\n• Menú TESIS TFG y TFM\n• Menú Todo Frio\n• Menú Vegano\n• Menú Vegetariano\n\nSi quieres, te explico el que te interese en concreto o te digo cuál encaja mejor según si buscas algo tipo picoteo o una opción para comer con más cantidad."
+    },
+    {
+        "role": "user",
+        "content": "explicame sobre el baby shower"
+    },
+    {
+        "role": "assistant",
+        "content": "No quiero darte una información que no sea exacta. Si quieres, escríbenos a info@cateringencasa.com y te responderemos con tu consulta."
+    },
+    {
+        "role": "user",
+        "content": "haceis envíos a San Sebastián de los Reyes?"
+    },
+    {
+        "role": "assistant",
+        "content": "Sí, hacemos envíos en San Sebastián de los Reyes. Como el coste puede variar según la zona, ¿me facilitas tu código postal para indicarte el precio exacto?"
+    },
+    {
+        "role": "user",
+        "content": "Sí, es 28703"
+    },
+    {
+        "role": "assistant",
+        "content": "El coste de envío a San Sebastián de los Reyes (código postal 28703) es de 15 €. Si prefieres recoger tu pedido, el coste es 0 €. ¿Te gustaría saber más sobre algún menú en particular?"
+    },
+    {
+        "role": "user",
+        "content": "dame información sobre el menú baby shower"
+    },
+    {
+        "role": "assistant",
+        "content": "El Menú Baby Shower tiene dos modalidades:\n\n• Picoteo: una opción más ligera\n• Para comer: una opción con más cantidad\n\n¿Prefieres algo más ligero tipo picoteo o una opción para comer?"
+    },
+    {
+        "role": "user",
+        "content": "ligero"
+    },
+    {
+        "role": "assistant",
+        "content": "Parece que tu mensaje está incompleto. ¿Podrías darme más detalles sobre lo que necesitas? Estoy aquí para ayudarte."
+    },
+    {
+        "role": "user",
+        "content": "hola"
+    },
+    {
+        "role": "assistant",
+        "content": "Hola 👋 Soy Vera, asistente virtual de Catering Barú. Puedo ayudarte con información sobre menús, envíos, pedidos y dudas frecuentes. ¿Prefieres algo más ligero tipo picoteo o una opción para comer?"
+    },
+    {
+        "role": "user",
+        "content": "que menús teneis"
+    },
+    {
+        "role": "assistant",
+        "content": "En Catering Barú ofrecemos varios menús para diferentes ocasiones. Algunos de los menús disponibles son:\n\n1. **Menú Baby Shower**: Ideal para un aperitivo en un Baby Shower, con una combinación de canapés fríos, calientes y un postre.\n\nSi necesitas más información sobre un menú específico o quieres saber más sobre otros menús, no dudes en preguntar. También puedes visitar nuestra web para ver todos los detalles."
+    },
+    {
+        "role": "user",
+        "content": "dime todos los menus"
+    },
+    {
+        "role": "assistant",
+        "content": "Disponemos de varios menús según el tipo de evento.\n\n• COFFEE BREAK\n• Menú Baby Shower\n• Menú Deluxe\n• Menú Entre Amigos\n• Menú infantil\n• Menú Navidad\n• Menú PARA MEDIA MAÑANA\n• Menú sin gluten (apto para celiacos)\n• Menú TESIS TFG y TFM\n• Menú Todo Frio\n• Menú Vegano\n• Menú Vegetariano\n\nSi quieres, te explico el que te interese en concreto o te digo cuál encaja mejor según si buscas algo tipo picoteo o una opción para comer con más cantidad."
+    },
+    {
+        "role": "user",
+        "content": "todo frio"
+    },
+    {
+        "role": "assistant",
+        "content": "El menú \"Todo Frío\" está compuesto únicamente por opciones frías y es ideal para picoteo. Tiene dos modalidades: Picoteo y Para comer. \n\n¿Te gustaría saber más sobre alguna de estas modalidades?"
+    },
+    {
+        "role": "user",
+        "content": "picoteo"
+    },
+    {
+        "role": "assistant",
+        "content": "Para **4 personas** no hay un tramo exacto en el **Menú Baby Shower** en modalidad **Picoteo**.\n\nPuedes hacer una de estas dos cosas:\n• Elegir un tramo inferior cercano y completarlo con otro tramo pequeño\n• Elegir directamente el siguiente tramo disponible de **6 personas**\n\nEn este caso solo cambia la cantidad, no el contenido del menú.\nLos tramos disponibles de esta modalidad son: 6, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108 personas.\n\nAquí tienes el enlace directo del menú:\nhttps:\/\/www.cateringencasa.com\/pedir\/menu-baby-shower\/"
+    },
+    {
+        "role": "user",
+        "content": "hola"
+    },
+    {
+        "role": "assistant",
+        "content": "Hola 👋 Soy Vera, asistente virtual de Catering Barú. Puedo ayudarte con información sobre menús, envíos, pedidos y dudas frecuentes. ¿Prefieres algo más ligero tipo picoteo o una opción para comer?"
+    },
+    {
+        "role": "user",
+        "content": "que menús teneis"
+    },
+    {
+        "role": "assistant",
+        "content": "Para **4 personas** no hay un tramo exacto en el **Menú Baby Shower** en modalidad **Picoteo**.\n\nPuedes hacer una de estas dos cosas:\n• Elegir un tramo inferior cercano y completarlo con otro tramo pequeño\n• Elegir directamente el siguiente tramo disponible de **6 personas**\n\nEn este caso solo cambia la cantidad, no el contenido del menú.\nLos tramos disponibles de esta modalidad son: 6, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108 personas.\n\nAquí tienes el enlace directo del menú:\nhttps:\/\/www.cateringencasa.com\/pedir\/menu-baby-shower\/"
+    }
+]
