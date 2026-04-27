@@ -56,7 +56,12 @@ def ask_agent(user_message: str, history: list[dict]) -> str:
     runtime_rule = (
         'Es el primer mensaje de la conversación: abre con "Hola 👋 Soy Vera, asistente virtual de Catering Barú."'
         if is_first_turn
-        else "NO repitas el saludo inicial 'Hola 👋 Soy Vera, asistente virtual de Catering Barú.' porque ya fue enviado en un turno anterior."
+        else (
+            "NO repitas el saludo inicial 'Hola 👋 Soy Vera, asistente virtual de Catering Barú.' "
+            "porque ya fue enviado en un turno anterior. "
+            "En este turno tampoco uses saludos alternativos como: Hola, Hola de nuevo, Buenas, "
+            "Buenos días, Buenas tardes, Buenas noches. Responde directamente siguiendo el flujo."
+        )
     )
 
     tools = []
