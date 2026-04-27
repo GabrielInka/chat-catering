@@ -52,6 +52,13 @@ def _build_input(history: list[dict], user_message: str) -> list[dict]:
 
 
 def ask_agent(user_message: str, history: list[dict]) -> str:
+    is_first_turn = len(history) == 0
+    runtime_rule = (
+        'Es el primer mensaje de la conversación: abre con "Hola 👋 Soy Vera, asistente virtual de Catering Barú."'
+        if is_first_turn
+        else "NO repitas el saludo inicial 'Hola 👋 Soy Vera, asistente virtual de Catering Barú.' porque ya fue enviado en un turno anterior."
+    )
+
     tools = []
     if OPENAI_VECTOR_STORE_ID:
         tools.append(
@@ -63,7 +70,7 @@ def ask_agent(user_message: str, history: list[dict]) -> str:
     response = client.responses.create(
         model=OPENAI_MODEL,
         input=_build_input(history, user_message),
-        instructions=_resolve_instructions(),
+        instructions=f"{_resolve_instructions()}\n\nRegla de turno actual:\n- {runtime_rule}",
         tools=tools,
         temperature=0.2,
     )
