@@ -116,6 +116,8 @@ En `Project -> Variables`, añade:
 - `OPENAI_API_KEY`
 - `OPENAI_MODEL` (ejemplo: `gpt-5.4-mini`)
 - `OPENAI_VECTOR_STORE_ID` (tu vector store)
+- `AGENT_INSTRUCTIONS` (opcional, prompt inline)
+- `AGENT_INSTRUCTIONS_FILE` (opcional, ejemplo: `api/agent_instructions.md`)
 - `WHATSAPP_TOKEN`
 - `PHONE_NUMBER_ID`
 - `VERIFY_TOKEN`
@@ -139,3 +141,17 @@ En Meta WhatsApp Cloud API:
 - **Verify token**: el mismo valor que `VERIFY_TOKEN`
 
 Después suscribe el campo de mensajes (`messages`) en tu app de Meta.
+
+## Personalizar respuestas del agente
+
+Puedes cambiar el comportamiento sin tocar la lógica de código:
+
+- Opción 1: editar `api/agent_instructions.md`.
+- Opción 2: definir `AGENT_INSTRUCTIONS` en variables de entorno (Railway).
+
+Orden de prioridad al arrancar:
+1. `AGENT_INSTRUCTIONS` (si tiene contenido)
+2. `AGENT_INSTRUCTIONS_FILE` (si apunta a un archivo válido)
+3. Prompt por defecto embebido en código
+
+Recomendación: en Railway usa `AGENT_INSTRUCTIONS_FILE=api/agent_instructions.md` y versiona ese archivo en Git.
