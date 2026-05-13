@@ -6,6 +6,8 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.4-mini")
 OPENAI_VECTOR_STORE_ID = os.getenv("OPENAI_VECTOR_STORE_ID", "")
+# Opcional: segundo vector store solo con documentación de menús (api/vector_docs/menus/).
+OPENAI_VECTOR_STORE_MENUS_ID = os.getenv("OPENAI_VECTOR_STORE_MENUS_ID", "")
 AGENT_INSTRUCTIONS = os.getenv("AGENT_INSTRUCTIONS", "")
 AGENT_INSTRUCTIONS_FILE = os.getenv("AGENT_INSTRUCTIONS_FILE", "")
 
