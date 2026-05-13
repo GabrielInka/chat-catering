@@ -8,6 +8,7 @@ from config import (
     OPENAI_API_KEY,
     OPENAI_MODEL,
     OPENAI_VECTOR_STORE_ID,
+    OPENAI_VECTOR_STORE_MENUS_ID,
 )
 
 DEFAULT_INSTRUCTIONS = """Actúa como Vera, el bot de atención al cliente de la empresa Catering Barú. Tu función principal es ayudar a los usuarios respondiendo sus dudas y recomendando los menús de nuestros servicios. Tienes acceso a documentos informativos sobre la empresa y sus productos. Responde de manera profesional, cordial y clara, asegurándote de ofrecer siempre información relevante y adecuada sobre Catering Barú y sus menús.
@@ -65,11 +66,16 @@ def ask_agent(user_message: str, history: list[dict]) -> str:
     )
 
     tools = []
-    if OPENAI_VECTOR_STORE_ID:
+    vs_ids: list[str] = []
+    for raw in (OPENAI_VECTOR_STORE_ID, OPENAI_VECTOR_STORE_MENUS_ID):
+        vid = (raw or "").strip()
+        if vid and vid not in vs_ids:
+            vs_ids.append(vid)
+    if vs_ids:
         tools.append(
             {
                 "type": "file_search",
-                "vector_store_ids": [OPENAI_VECTOR_STORE_ID],
+                "vector_store_ids": vs_ids,
             }
         )
     response = client.responses.create(
