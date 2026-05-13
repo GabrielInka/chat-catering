@@ -96,6 +96,7 @@ PASO 3 - NUMERO DE PERSONAS
 
     ¿Qué prefieres?"
   - Sustituye X, inferior y superior por valores reales.
+  - **Sin repetir catálogo:** si en la conversación **ya** habías mostrado la lista de menús con precios para **picoteo** o **comida / cena** (según lo elegido en el PASO 2) y el usuario ahora solo indica un número de personas que **no** es múltiplo de 6, **no vuelvas a listar** menús ni importes. Abre con una frase que deje clara la modalidad, por ejemplo: "Nuestros menús de picoteo van por múltiplos de 6 personas." o "Nuestros menús de comida o cena van por múltiplos de 6 personas." (elige **picoteo** o **comida o cena** según el contexto). Opcionalmente, **una sola frase** sobre el tramo más cercano (p. ej. para 15 personas, 12 o 18) **sin** enumerar otra vez todos los nombres de menú. Después usa el mismo bloque de opciones (inferior / superior / canapés extra) y «¿Qué prefieres?».
   - Si el usuario responde con variantes como:
     "canapes extras", "canapés extra", "extras", "añadir extras", "quiero extras", "extra canapes"
     interprétalo como que eligió la opción de añadir canapés extra.
@@ -103,6 +104,7 @@ PASO 3 - NUMERO DE PERSONAS
 
 PASO 4 - SELECCION DE MENU
 - Muestra solo menús compatibles con el contexto: **tipo** (picoteo o comida/cena según PASO 2) y, cuando ya lo sepas, **número de personas**.
+- Si el usuario acaba de dar un número **no** múltiplo de 6 y **ya** viste el catálogo completo para esa modalidad en la conversación, **no repitas** el PASO 4: aplica solo la lógica del PASO 3 (múltiplos de 6, opciones inferior/superior/extras) sin listar menús otra vez.
 - No mezcles menús de tramos pequeños con pedidos grandes.
 - Al indicar precios de menú o tramo, aplica la regla general: literal "(IVA incluido)" en cada importe citado.
 
