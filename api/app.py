@@ -8,16 +8,18 @@ from agent_service import ask_agent
 from allowed_contacts import is_allowed_contact
 from blocked_contacts import is_blocked_contact
 from config import (
-    TELEGRAM_ADMIN_CHAT_ID,
     TELEGRAM_ENABLED,
     TELEGRAM_WEBHOOK_SECRET,
     VERA_ALLOWLIST_ONLY,
     VERIFY_TOKEN,
+    get_telegram_allowed_user_ids,
+    is_telegram_forum_mode,
     validate_runtime_config,
 )
 from history import append_assistant_message, get_history, save_history
 from human_pause import is_human_paused, set_human_pause
 from telegram_client import (
+    get_telegram_destination_chat_id,
     is_telegram_enabled,
     mirror_whatsapp_ai_reply,
     mirror_whatsapp_inbound,
@@ -25,6 +27,7 @@ from telegram_client import (
     send_telegram_message,
 )
 from telegram_routes import register_telegram_message, resolve_phone_from_telegram_reply
+from telegram_topics import resolve_phone_from_topic
 from whatsapp_client import mark_whatsapp_message_as_read, send_whatsapp_message
 
 app = Flask(__name__)
@@ -58,6 +61,30 @@ def _mirror_inbound_to_telegram(sender: str, text: str, paused: bool) -> None:
     else:
         result = mirror_whatsapp_inbound(sender, text)
     _register_mirror_route(result, sender)
+
+
+def _is_allowed_telegram_chat(chat_id: str) -> bool:
+    if not chat_id:
+        return False
+    return chat_id == str(get_telegram_destination_chat_id())
+
+
+def _is_allowed_telegram_user(user_id: str) -> bool:
+    allowed = get_telegram_allowed_user_ids()
+    if is_telegram_forum_mode():
+        return user_id in allowed
+    return not allowed or user_id in allowed
+
+
+def _resolve_phone_from_telegram_message(message: dict) -> str:
+    thread_id = message.get("message_thread_id")
+    if is_telegram_forum_mode() and thread_id is not None:
+        phone = resolve_phone_from_topic(thread_id)
+        if phone:
+            return phone
+
+    reply_to = message.get("reply_to_message") or {}
+    return resolve_phone_from_telegram_reply(reply_to.get("message_id"))
 
 
 @app.get("/whatsapp-webhook")
@@ -131,8 +158,6 @@ def receive_whatsapp_message() -> Response:
 
 
 def _telegram_webhook_authorized() -> bool:
-    if not TELEGRAM_ENABLED:
-        return False
     if not TELEGRAM_WEBHOOK_SECRET:
         return True
     header_secret = request.headers.get("X-Telegram-Bot-Api-Secret-Token", "")
@@ -141,7 +166,11 @@ def _telegram_webhook_authorized() -> bool:
 
 @app.post("/telegram-webhook")
 def receive_telegram_message() -> Response:
+    if not TELEGRAM_ENABLED:
+        return Response("OK", status=200)
+
     if not _telegram_webhook_authorized():
+        logger.warning("Telegram webhook: secret_token no coincide o falta cabecera")
         return Response("Unauthorized", status=403)
 
     data = request.get_json(silent=True) or {}
@@ -150,43 +179,69 @@ def receive_telegram_message() -> Response:
         return Response("OK", status=200)
 
     chat_id = str((message.get("chat") or {}).get("id", ""))
-    if chat_id != str(TELEGRAM_ADMIN_CHAT_ID):
+    if not _is_allowed_telegram_chat(chat_id):
         logger.info("Telegram: chat_id no autorizado %s", chat_id)
+        return Response("OK", status=200)
+
+    user_id = str((message.get("from") or {}).get("id", ""))
+    if not _is_allowed_telegram_user(user_id):
+        logger.info("Telegram: usuario no autorizado %s", user_id)
         return Response("OK", status=200)
 
     text = (message.get("text") or "").strip()
     if not text or text.startswith("/"):
         return Response("OK", status=200)
 
-    reply_to = message.get("reply_to_message") or {}
-    reply_to_id = reply_to.get("message_id")
-    phone = resolve_phone_from_telegram_reply(reply_to_id)
+    phone = _resolve_phone_from_telegram_message(message)
+    thread_id = message.get("message_thread_id")
+
     if not phone:
-        send_telegram_message(
-            "No pude identificar el contacto de WhatsApp. "
-            "Usa «Responder» sobre un mensaje espejado del bot."
+        hint = (
+            "Escribe dentro del tema del cliente (WA …)."
+            if is_telegram_forum_mode()
+            else "Usa «Responder» sobre un mensaje espejado del bot."
         )
+        send_telegram_message(f"No identifiqué el contacto de WhatsApp. {hint}")
         return Response("OK", status=200)
 
     if not _should_process_whatsapp_sender(phone):
-        send_telegram_message(f"No se puede enviar a {phone} (bloqueado o no autorizado).")
+        send_telegram_message(
+            f"No se puede enviar a {phone} (bloqueado o no autorizado).",
+            phone=phone if is_telegram_forum_mode() else None,
+            thread_id=int(thread_id) if thread_id is not None else None,
+        )
         return Response("OK", status=200)
 
     result = send_whatsapp_message(phone, text)
     if not result.get("ok"):
         logger.warning("Error enviando a WhatsApp desde Telegram: %s", result)
-        send_telegram_message("Error al enviar el mensaje a WhatsApp. Revisa los logs del servidor.")
+        send_telegram_message(
+            "Error al enviar el mensaje a WhatsApp. Revisa los logs del servidor.",
+            phone=phone if is_telegram_forum_mode() else None,
+            thread_id=int(thread_id) if thread_id is not None else None,
+        )
         return Response("OK", status=200)
 
     set_human_pause(phone)
     append_assistant_message(phone, text)
-    send_telegram_message(f"✅ Enviado a WhatsApp ({phone}). IA en pausa.")
+    send_telegram_message(
+        "✅ Enviado a WhatsApp. IA en pausa.",
+        phone=phone if is_telegram_forum_mode() else None,
+        thread_id=int(thread_id) if thread_id is not None else None,
+    )
     return Response("OK", status=200)
 
 
 @app.get("/health")
 def health() -> Response:
-    payload = {"ok": True, "telegram_enabled": is_telegram_enabled()}
+    mode = "disabled"
+    if is_telegram_enabled():
+        mode = "group_forum" if is_telegram_forum_mode() else "private_chat"
+    payload = {
+        "ok": True,
+        "telegram_enabled": is_telegram_enabled(),
+        "telegram_mode": mode,
+    }
     return Response(json.dumps(payload), mimetype="application/json", status=200)
 
 

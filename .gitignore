@@ -16,6 +16,7 @@ __pycache__/
 
 # Estado en runtime (Railway/Plesk)
 api/telegram_routes.json
+api/telegram_topics.json
 api/human_pause.json
 
 # Conversaciones y webhooks (datos personales)

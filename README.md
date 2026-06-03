@@ -28,7 +28,7 @@ Endpoints:
 - `GET /whatsapp-webhook` (verificación de Meta)
 - `POST /whatsapp-webhook` (mensajes entrantes)
 - `POST /telegram-webhook` (respuestas manuales desde Telegram, si está activado)
-- `GET /health` (health check)
+- `GET /health` (health check; incluye `telegram_mode`: `group_forum`, `private_chat` o `disabled`)
 
 ## Despliegue en Plesk (con Python 3.10 en venv)
 
@@ -178,21 +178,34 @@ Si no puedes usar la app WhatsApp Business en el mismo número que la Cloud API,
 ### 1) Crear el bot
 
 1. En Telegram, abre @BotFather → `/newbot` → copia el **token**.
-2. Abre tu bot y pulsa **Iniciar** (`/start`).
-3. Con @userinfobot obtén tu **chat id** numérico.
+2. En @BotFather → tu bot → **Bot Settings** → **Group Privacy** → **Turn off** (el bot debe ver mensajes del grupo).
+3. Con @userinfobot obtén tu **user id** (para `TELEGRAM_ALLOWED_USER_IDS`).
 
-### 2) Variables de entorno
+### 2) Grupo con un tema por cliente (recomendado)
+
+1. Crea un **supergrupo** privado e invita solo a tu equipo.
+2. **Editar grupo** → activa **Temas** (foro).
+3. Añade el bot al grupo y hazlo **administrador** con permiso de **gestionar temas**.
+4. Escribe un mensaje en el grupo y obtén el **ID del grupo** (negativo, p. ej. `-1001234567890`) con @getidsbot o @RawDataBot.
+
+Cada número de WhatsApp obtiene un tema automático (`WA 34601165468`, etc.). Los mensajes de ese cliente van solo a su tema.
+
+### 3) Variables de entorno
+
+**Modo grupo (temas):**
 
 ```env
 TELEGRAM_ENABLED=true
 TELEGRAM_BOT_TOKEN=123456:ABC...
-TELEGRAM_ADMIN_CHAT_ID=123456789
+TELEGRAM_GROUP_CHAT_ID=-1001234567890
+TELEGRAM_ALLOWED_USER_IDS=123456789,987654321
 HUMAN_PAUSE_MINUTES=30
-# Opcional (recomendado en producción):
 TELEGRAM_WEBHOOK_SECRET=un_secreto_largo_aleatorio
 ```
 
-### 3) Webhook de Telegram
+**Modo chat privado (legacy):** deja `TELEGRAM_GROUP_CHAT_ID` vacío y usa `TELEGRAM_ADMIN_CHAT_ID` (tu user id). `TELEGRAM_ALLOWED_USER_IDS` es opcional.
+
+### 4) Webhook de Telegram
 
 Tras desplegar (sustituye dominio y token):
 
@@ -202,12 +215,25 @@ https://api.telegram.org/bot<TU_TOKEN>/setWebhook?url=https://tuapp.up.railway.a
 
 Si no usas `TELEGRAM_WEBHOOK_SECRET`, omite `&secret_token=...`.
 
-### 4) Uso diario
+### 5) Seguridad
 
-- Cada mensaje de WhatsApp se **espeja** a tu chat de Telegram.
-- Las respuestas de VERA aparecen como `[IA] Respuesta enviada a WhatsApp`.
-- Para contestar tú: usa **Responder** sobre un mensaje espejado y escribe el texto. Se envía al cliente por WhatsApp y la IA queda en pausa durante `HUMAN_PAUSE_MINUTES` minutos para ese número.
-- Mientras dura la pausa, los mensajes del cliente solo se reflejan en Telegram (sin respuesta automática).
+| Medida | Efecto |
+|--------|--------|
+| `TELEGRAM_GROUP_CHAT_ID` | Solo ese grupo recibe espejos y puede contestar |
+| `TELEGRAM_ALLOWED_USER_IDS` | Solo esos usuarios de Telegram pueden enviar texto a WhatsApp |
+| `TELEGRAM_WEBHOOK_SECRET` | Solo Telegram válido llama a tu servidor |
+| Grupo privado + sin enlace público | Nadie entra sin invitación |
+
+Otros miembros del grupo **no** pueden reenviar a WhatsApp si su `user id` no está en la lista.
+
+### 6) Uso diario
+
+- Cada cliente de WhatsApp → **su tema** en el grupo.
+- Las respuestas de VERA aparecen en el mismo tema como `[IA]`.
+- Para contestar tú: escribe **dentro del tema del cliente** (no hace falta «Responder» si ya estás en el tema correcto).
+- La IA queda en pausa `HUMAN_PAUSE_MINUTES` minutos tras tu respuesta.
+
+Comprueba despliegue: `GET /health` → `"telegram_mode": "group_forum"`.
 
 ## Personalizar respuestas del agente
 
