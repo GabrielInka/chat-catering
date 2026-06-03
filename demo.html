@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demo Chatbot – Catering Barú</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background:#f8fafc;
+    }
+    h1{
+      font-weight:600;
+    }
+    .demo-box{
+      background:#ffffff;
+      padding:30px;
+      border-radius:14px;
+      box-shadow:0 20px 60px rgba(0,0,0,.08);
+      max-width:700px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="demo-box">
+    <h1>Demo Chatbot – Catering Barú</h1>
+    <p>
+      El historial se mantiene mientras estés en esta sesión.
+      Si recargas la página, comienza una conversación nueva.
+    </p>
+  </div>
+
+  <!-- CONFIGURACIÓN DEL CHAT -->
+  <script>
+    window.BARU_CHAT_CONFIG = {
+      brandName: "Catering Barú en Casa",
+      accent: "#b04a57",
+      apiAI: "/catering-chat-demo/api/ai.php",
+      cssUrl: "/catering-chat-demo/assets/baruchat.css",
+
+      /* Cuando subas el logo, descomenta y pon la ruta */
+      logoUrl: "/catering-chat-demo/assets/logo.png",
+
+      /* Opcional: WhatsApp */
+      // whatsappUrl: "https://wa.me/34XXXXXXXXX?text=Hola%20quiero%20información%20sobre%20el%20catering"
+    };
+  </script>
+
+  <!-- SCRIPT DEL CHATBOT -->
+  <script src="/catering-chat-demo/assets/baruchat.js"></script>
+
+</body>
+</html>

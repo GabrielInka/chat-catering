@@ -1,0 +1,27 @@
+# Secretos y entorno local
+.env
+.env.local
+.env.*.local
+
+# Entornos virtuales
+.venv
+.venv310
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Estado en runtime (Railway/Plesk)
+api/telegram_routes.json
+api/human_pause.json
+
+# Conversaciones y webhooks (datos personales)
+api/history_*.json
+api/last_webhook_log.json
+
+# Logs
+api/read_errors.log
+*.log

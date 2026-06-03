@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "delivery_area": "Comunidad de Madrid",
+    "delivery_from_eur": 6,
+    "advance_notice": "1 día de antelación (según disponibilidad)",
+    "min_order_eur": 50,
+    "payment": "online o efectivo",
+    "hours": "Lunes a sábado",
+    "address": "C. Arzobispo Morcillo, 46, 28029 Madrid",
+    "phone": "91 115 27 51",
+    "whatsapp": "https://wa.me/34XXXXXXXXX"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "updated_at": "2026-05-19",
+  "description": "Teléfonos autorizados para que VERA responda durante modo pruebas",
+  "phones": {
+    "34616026208": true,
+    "34603898709": true
+  }
+}
